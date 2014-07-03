@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <title>title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="lib/jquery-1.6.4.js"></script>
+        <script src="lib/jquery.mobile-1.1.0.js"></script>
+        <link href="src/css/jquery.mobile.structure-1.1.0.css" rel="stylesheet"
+        />
+        <link href="src/css/jquery.mobile.theme-1.1.0.css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        <div data-role="page" id="page1" style="background-image: url('images/untitled1.png'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <div data-role="collapsible" data-theme="a">
+                        <h1>Old Ebbitt Grill</h1>
+                        <div class="div-widget">
+                            <div data-role="collapsible" data-theme="b" data-content-theme="e">
+                                <h1>Menù</h1>
+                                <ul data-role="listview" data-inset="true">
+                                    <li data-theme="a">
+                                        <a href="#page2 ">Desayuno</a>
+                                    </li>
+                                    <li data-theme="b">
+                                        <a href="#page14 ">Comida</a>
+                                    </li>
+                                    <li data-theme="e">
+                                        <a href="#page21 ">Cena</a>
+                                    </li>
+                                    <li data-theme="b">
+                                        <a href="#page28 ">Postre</a>
+                                    </li>
+                                    <li data-theme="e">
+                                        <a  href="#page34 ">Bebida</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+            </div>
+        </div>
+        <div data-role="page" id="page2">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <div data-role="collapsible" data-theme="a">
+                        <h1>DESAYUNO</h1>
+                        <ul data-role="listview" data-inset="true" data-filter-theme="e">
+                            <li>
+                                <a href="#page3">El de la calle ocho</a>
+                            </li>
+                            <li>
+                                <a href="#page4">El de la abuelita</a>
+                            </li>
+                            <li>
+                                <a href="#page5">Huevos rancheros</a>
+                            </li>
+                            <li>
+                                <a href="#page6">Granjero</a>
+                            </li>
+                            <li>
+                                <a href="#page7">Bonyorno</a>
+                            </li>
+                            <li>
+                                <a href="#page8">Country</a>
+                            </li>
+                            <li>
+                                <a href="#page9 ">El chapin</a>
+                            </li>
+                            <li>
+                                <a href="#page10 ">Huevos divorciados</a>
+                            </li>
+                            <li>
+                                <a href="#page11">Tortilla de platano</a>
+                            </li>
+                            <li>
+                                <a href="#page12 ">Finquero</a>
+                            </li>
+                            <li>
+                                <a href="#page13">Omelettes</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page1 ">MENU</a>
+            </div>
+        </div>
+        <div data-role="page" id="page3">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <a data-role="button" data-theme="b">El de la calle ocho</a>
+                <div class="div-widget">
+                  <p>Huevos estrellados bañados en salsa ranchera,</p>
+                  <p>jamon,frijoles,queso de capas,platano. <img src="images/l.jpg" width="290" style="display: block; margin: 0 auto" /></p>
+                  <p>$120</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page2">DESAYUNO</a>
+            </div>
+        </div>
+        <div data-role="page" id="page4">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <a data-role="button" data-theme="b">El de la abuelita</a>
+                <div class="div-widget">
+                    <p><img src="images/Antigua 2010 with mom 075.JPG" width="290" />
+                      Naisavena,huevos revueltos con jamon y queso, </p>
+                    <p>  frijoles, queso de capas,platano.</p>
+                    <p>$125</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page2 ">DESAYUNO</a>
+            </div>
+        </div>
+        <div data-role="page" id="page5">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Huevos Rancheros</a>
+                      <img src="images/images.jpg" width="290" />
+                      Sobre tortilla cubierta de frijoles,huevos estrellados con salsa ranchera, chile jalapeño, queso de capa,platano.</p>
+                    <p>$130</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page2 ">DESAYUNO</a>
+            </div>
+        </div>
+        <div data-role="page" id="page6">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Granjero</a>
+                      <img src="images/descarga.jpg" width="290" />
+                      Huevos estrellados con salsa ranchera sobre tortilla de maiz, jamon, frijoles, queso de capas, platano.</p>
+                    <p>$145</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page2 ">DESAYUNO</a>
+            </div>
+        </div>
+        <div data-role="page" id="page7">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Bonyorno</a>
+                      <img src="images/255520_353260561426590_2020571094_n.jpg" width="290" />
+                      Huevos estrellados sobre torta de carne o pollo con salsa ranchera, frijoles, queso de capas, platanos.</p>
+                    <p>$128</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page2 ">DESAYUNO</a>
+            </div>
+        </div>
+        <div data-role="page" id="page8">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Country</a>
+                      <img src="images/images (1).jpg" width="290" />Cuarto de libra de lomito con huevos estrellados, salsa ranchera, frijoles, queso de capas, platano.</p>
+                    <p>$130</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page2 ">DESAYUNO</a>
+            </div>
+        </div>
+        <div data-role="page" id="page9">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">El chapin</a>
+                      <img src="images/descarga (1).jpg" width="290" />
+                      Huevos revueltos o estrellados con salsa ranchera, frijoles, queso de capas,platano.</p>
+                    <p>$145</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page2 ">DESAYUNO</a>
+            </div>
+        </div>
+        <div data-role="page" id="page10">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Huevos Divorciados</a>
+                      <img src="images/descarga (2).jpg" width="290" />
+                      Huevos revueltos o estrellados con salsa ranchera, salsa verde, frijoles, queso de capas, platano.</p>
+                    <p>$120</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page2 ">DESAYUNO</a>
+            </div>
+        </div>
+        <div data-role="page" id="page11">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Tortilla de Platano</a>
+                      <img src="images/descarga (3).jpg" width="290" />
+                      Torta de huevo y platano, frijoles, queso de capas.</p>
+                    <p>$125</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page2 ">DESAYUNO</a>
+            </div>
+        </div>
+        <div data-role="page" id="page12">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Finquero</a>
+                      <img src="images/images (2).jpg" width="290" />
+                      Torta de huevo con queso fundido, tocino, frijoles y queso de capas, platanos.</p>
+                    <p>$130</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page2 ">DESAYUNO</a>
+            </div>
+        </div>
+        <div data-role="page" id="page13">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Omelettes</a>
+                      <img src="images/descarga (4).jpg" width="290" />
+                      De jamon o champignones, con queso fundido, salsa ranchera, frijoles, queso de capas,platano.</p>
+                    <p>$110</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page2 ">DESAYUNO</a>
+            </div>
+        </div>
+        <div data-role="page" id="page14">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <div data-role="collapsible" data-theme="a">
+                        <h1>COMIDA</h1>
+                        <ul data-role="listview" data-inset="true">
+                            <li>
+                                <a href="#page15">Cazuela de Jaiba </a>
+                            </li>
+                            <li>
+                                <a href="#page16">Rollos de Pato</a>
+                            </li>
+                            <li>
+                                <a href="#page17">Sopa de Verduras</a>
+                            </li>
+                            <li>
+                                <a href="#page18">Estofado de Res a la Bourguignon</a>
+                            </li>
+                            <li>
+                                <a href="#page19">Sopa de Tortilla</a>
+                            </li>
+                            <li>
+                                <a href="#page20">Crema de Espárragos Blancos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page1 ">MENU</a>
+            </div>
+        </div>
+        <div data-role="page" id="page15">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Cazuela de Jaiba</a>
+                      <img src="images/CAZUELA MARISCOS.JPG" width="290" />
+                      Con cassé de tomate. oregano y chile serrano.</p>
+                    <p>$175</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page14 ">COMIDA</a>
+            </div>
+        </div>
+        <div data-role="page" id="page16">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Rollos de Pato</a>
+                      <img src="images/descarga (4).jpg" width="290" />
+                      Envueltos en pasta fila, y salsa de fresa.</p>
+                    <p>$175</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page14">COMIDA</a>
+            </div>
+        </div>
+        <div data-role="page" id="page17">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Sopa de Verduras </a>
+                      <img src="images/Sopa-de-Verduras-Cremosa.jpg" width="290" />
+                      Verduras frescas, cebada perla y jitomate caramelizado.</p>
+                    <p>$115</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page14 ">COMIDA</a>
+            </div>
+        </div>
+        <div data-role="page" id="page18">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Estofado de Res a la Bourguignon</a>
+                      <img src="images/descarga (1).jpg" width="290" />
+                      Con pasta de mantequilla y verduras.</p>
+                    <p>$335</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page14">COMIDA</a>
+            </div>
+        </div>
+        <div data-role="page" id="page19">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Sopa de Tortilla</a>
+                    <img src="images/descarga (2).jpg" width="290" />
+                Con queso fresco, chicharron, aguacate chile pasilla.</p>
+                    <p>$125</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page14 ">COMIDA</a>
+            </div>
+        </div>
+        <div data-role="page" id="page20">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Crema de Espárragos Blancos</a>
+                    <img src="images/descarga (3).jpg" width="290" />
+                Con salmon aumado y caviar.</p>
+                    <p>$155</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page14 ">COMIDA</a>
+            </div>
+        </div>
+        <div data-role="page" id="page21">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <div data-role="collapsible">
+                        <h1>CENA</h1>
+                        <ul data-role="listview" data-inset="true">
+                            <li>
+                                <a href="#page22">Callo de Almeja y Camarón</a>
+                            </li>
+                            <li>
+                                <a href="#page23">Carpaccio de Pulpo</a>
+                            </li>
+                            <li>
+                                <a href="#page24">Caracoles a la Provenzal </a>
+                            </li>
+                            <li>
+                                <a href="#page25">Sopa de Cebolla</a>
+                            </li>
+                            <li>
+                                <a href="#page26">Sopa de Camarón</a>
+                            </li>
+                            <li>
+                                <a href="#page27">Capuccino a los Tres Quesos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page1 ">MENU</a>
+            </div>
+        </div>
+        <div data-role="page" id="page22">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Callo de Almeja y Camarón</a>
+                      <img src="images/descarga (5).jpg" width="290" /></p>
+                    <p>Jicama, hinojo, arugula y vinagreta de maracuya.</p>
+                    <p>$175</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page21">CENA</a>
+            </div>
+        </div>
+        <div data-role="page" id="page23">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Carpaccio de Pulpo</a>
+                      <img src="images/pulpo-carpaccio1.jpg" width="290" />
+                    </p>
+                    <p>Con papitas de escabeche, alioli negro y amarillo.</p>
+                    <p>$215</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page21">CENA</a>
+            </div>
+        </div>
+        <div data-role="page" id="page24">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Caracoles a la Provenzal </a>
+                      <img src="images/descarga (6).jpg" width="290" />
+                    </p>
+                    <p>A la mantequilla de echalotte, perejil, ajo y hiervas provence.</p>
+                    <p>$185</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page21 ">CENA</a>
+            </div>
+        </div>
+        <div data-role="page" id="page25">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Sopa de Cebolla</a>
+                      <img src="images/descarga (7).jpg" width="290" />
+                    </p>
+                    <p>Croutun, crosta de queso parmesano y gruyere.</p>
+                    <p>$125</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page21">CENA</a>
+            </div>
+        </div>
+        <div data-role="page" id="page26">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Sopa de Camarón</a>
+                      <img src="images/descarga (8).jpg" width="290" />
+                    </p>
+                    <p>Con crujiente de jamon serrano y  manzana verde.</p>
+                    <p>$125</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page21 ">CENA</a>
+            </div>
+        </div>
+        <div data-role="page" id="page27">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Capuccino a los Tres Quesos</a>
+                      <img src="images/1381721_10151620624921176_814056943_n.jpg" width="290" />
+                    </p>
+                    <p>Suizo, cheddar y goudar al aroma de trufa.</p>
+                    <p>$155</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page21 ">CENA</a>
+            </div>
+        </div>
+        <div data-role="page" id="page28">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <div data-role="collapsible">
+                        <h1>POSTRES</h1>
+                        <ul data-role="listview" data-inset="true">
+                            <li>
+                                <a href="#page29 ">Mousse de chocolate</a>
+                            </li>
+                            <li>
+                                <a href="#page30 ">Tarta Tatin</a>
+                            </li>
+                            <li>
+                                <a href="#page31">Tarta de higos</a>
+                            </li>
+                            <li>
+                                <a href="#page32">Pastel de chocolate Michelle</a>
+                            </li>
+                            <li>
+                                <a href="#page33">Profiteroles Moustaches</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page1  ">MENU</a>
+            </div>
+        </div>
+        <div data-role="page" id="page29">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Mousse de chocolate</a>
+                      <img src="images/descarga (9).jpg" width="290" />
+                    </p>
+                    <p>$140</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page28 ">POSTRES</a>
+            </div>
+        </div>
+        <div data-role="page" id="page30">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Tarta Tatin</a>
+                      <img src="images/descarga (10).jpg" width="290" />
+                    </p>
+                    <p>$110</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page28 ">POSTRES</a>
+            </div>
+        </div>
+        <div data-role="page" id="page31">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Tarta de higos</a>
+                      <img src="images/images.jpg" width="290" />
+                    </p>
+                    <p>$110</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page28 ">POSTRES</a>
+            </div>
+        </div>
+        <div data-role="page" id="page32">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Pastel de chocolate Michelle</a>
+                      <img src="images/coulant.jpg" width="290" /></p>
+                    <p>$110</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page28 ">POSTRES</a>
+            </div>
+        </div>
+        <div data-role="page" id="page33">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Profiteroles Moustaches</a>
+                      <img src="images/descarga (11).jpg" width="290" />
+                    </p>
+                    <p>$110</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page28">POSTRES</a>
+            </div>
+        </div>
+        <div data-role="page" id="page34">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <p><a data-role="button" data-theme="b">Bebidas</a>
+                      <img src="images/descarga (12).jpg" width="290" />
+                      </p>
+                    <p>$25</p>
+                    <img src="images/descarga (55).jpg" width="290" />
+                    <p>$15</p>
+                    <img src="images/descarga (22).jpg" width="290" />
+                     <p>$40</p>
+                     <img src="images/descarga (33).jpg" width="290" />
+                     <img src="images/descarga (44).jpg" width="290" />
+                      <p>$20</p>
+                      <img src="images/descarga (77).jpg" width="290" />
+                      <p>$250</p>
+                       <img src="images/images25.jpg" width="290" />
+                      <p>$500</p>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <a data-role="button" href="#page1">Menu</a>
+            </div>
+        </div>
+    </body>
+
+</html>
